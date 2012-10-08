@@ -1,3 +1,15 @@
+Only in xf86-input-synaptics-1.6.2-patched/conf: Makefile
+Only in xf86-input-synaptics-1.6.2-patched/: config.h
+Only in xf86-input-synaptics-1.6.2-patched/: config.log
+Only in xf86-input-synaptics-1.6.2-patched/: config.status
+Only in xf86-input-synaptics-1.6.2-patched/include: Makefile
+Only in xf86-input-synaptics-1.6.2-patched/: libtool
+Only in xf86-input-synaptics-1.6.2-patched/: Makefile
+Only in xf86-input-synaptics-1.6.2-patched/man: Makefile
+Only in xf86-input-synaptics-1.6.2-patched/src: .deps
+Only in xf86-input-synaptics-1.6.2-patched/src: extra
+Only in xf86-input-synaptics-1.6.2-patched/src: Makefile
+diff -aur xf86-input-synaptics-1.6.2/src/synaptics.c xf86-input-synaptics-1.6.2-patched/src/synaptics.c
 --- xf86-input-synaptics-1.6.2/src/synaptics.c	2012-06-12 03:23:34.000000000 +0200
 +++ xf86-input-synaptics-1.6.2-patched/src/synaptics.c	2012-10-08 02:15:49.867461023 +0200
 @@ -3152,11 +3152,12 @@
